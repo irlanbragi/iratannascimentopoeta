@@ -1,10 +1,273 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello, World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iratan Nascimento — Poesia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --paper: #1a1a1a;
+      --ink: #f4f4f4;
+      --muted: #b5b5b5;
+      --accent: #c78c3b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 5rem 2rem 3rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    header p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    .poem {
+      background: var(--paper);
+      padding: 3rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.4);
+    }
+
+    .poem h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: var(--accent);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.05rem;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+    }
+
+    nav button {
+      background: none;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      .poem { padding: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Iratan Nascimento</h1>
+  <p>
+    Poeta do sertão baiano, nascido em Paulo Afonso. Escreve cordéis e poesias desde a adolescência, 
+    reverenciando a vida na caatinga, a cultura sertaneja e as histórias de resistência, afeto e sonho.
+  </p>
+
+  <nav id="menu"></nav>
+</header>
+
+<main id="content"></main>
+
+<footer>
+  © Iratan Nascimento — Poesia e Cordel
+</footer>
+
+<script>
+  const poems = [
+    {
+      title: "Zumbi, rei Zumbi",
+      date: "07/10/2022",
+      text: `Zumbindo, cantando,
+Falando outra língua.
+Resgate de um povo
+Que morre a míngua.
+
+Zumbi, rei Zumbi
+
+Adeus pra senzala,
+Chicote no lombo,
+Senhor senhorzinho,
+Bem vindo ao Quilombo.
+
+Zumbi, rei Zumbi
+
+Nascendo sem dono,
+Com direito a sonhar,
+Podendo escolher
+Onde vai trabalhar.
+
+Zumbi, rei Zumbi
+
+Ensinando o valor
+De ter liberdade,
+De poder ser feliz,
+De sentir igualdade.
+
+Zumbi, rei Zumbi
+
+Adeus pras correntes,
+Adeus pra o mal trato,
+Já não tem coronel 
+Liberdade de fato.
+
+Zumbi, rei Zumbi
+
+Transformando a Senzala
+Em casas, em lares.
+Eternizando o seu nome,
+Eternizando Palmares.
+
+Zumbi, rei Zumbi 
+
+Até hoje se ouve
+Sua voz, os seus gritos,
+Já não são tão constantes,
+Já não são tão aflitos.
+
+Zumbi, rei Zumbi
+
+Zumbindo, cantando
+Em novos terreiros,
+Surgem novos Zumbis,
+Nascem novos guerreiros.`
+    },
+    {
+      title: "Sonho",
+      date: "06/04/2025",
+      text: `Me procuro
+E não me encontro 
+No exato ponto
+E tonto, pronto
+Retorno ao conto
+
+E como um canto
+No encanto
+Me torno santo
+Nem tanto
+Me resta o pranto
+
+E nessa procura
+A loucura
+Se faz mistura
+Não pura
+Tão crua, tão dura
+
+Vou além do meu olhar
+Tentando me decifrar
+Se não posso imaginar
+Talvez eu possa sonhar
+Em como vou me encontrar`
+    },
+    {
+      title: "Amor",
+      date: "—",
+      text: `Não julgue o amor como sujeito,
+Não é simples, nem composto,
+Não tem face, não tem rosto,
+É amor de qualquer jeito.
+
+O amor não tem fronteira,
+É tão simples e complexo,
+Não tem gênero, não tem sexo,
+Derruba qualquer barreira. 
+
+Não julgue o amor pelo conceito,
+Pois não tem classe, não tem posto, 
+É uma mistura de gosto,
+Não importa como é feito.
+
+O amor não escolhe um lado,
+Não tem certo, nem errado, 
+Não é feio, nem pecado,
+É tão fácil e complicado.`
+    }
+  ];
+
+  const content = document.getElementById('content');
+  const menu = document.getElementById('menu');
+
+  function renderPoem(index) {
+    const p = poems[index];
+    content.innerHTML = `
+      <article class="poem">
+        <h2>${p.title}</h2>
+        <div class="meta">${p.date}</div>
+        <pre>${p.text}</pre>
+      </article>
+    `;
+  }
+
+  poems.forEach((p, i) => {
+    const btn = document.createElement('button');
+    btn.textContent = p.title;
+    btn.onclick = () => renderPoem(i);
+    menu.appendChild(btn);
+  });
+
+  renderPoem(0);
+</script>
+
+</body>
 </html>
