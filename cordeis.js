@@ -1,60 +1,62 @@
 const poems = [
+
+
   {
-    title: "Zumbi, rei Zumbi",
-    date: "07/10/2022",
-    text: `Zumbindo, cantando,
-Falando outra língua.
-Resgate de um povo
-Que morre a míngua.
+    title: "Amor Infinito",
+    date: "09/01/2020",
+    text: `Com tantos outros no mundo
+Como fostes me encontrar?
+Não foi caso do destino
+Que me fez um ser menino 
+Em teu ventre germinar
 
-Zumbi, rei Zumbi
+Não foi apenas o acaso
+Foi algo determinado
+Pois tinha que ser assim
+E minha vida enfim
+Seria estar ao teu lado
 
-Adeus pra senzala,
-Chicote no lombo,
-Senhor senhorzinho,
-Bem vindo ao Quilombo.
+Uma vida para dois
+Uma sã cumplicidade
+Tão grande e infinita
+Tão séria e tão bonita
+E completa de verdade
 
-Zumbi, rei Zumbi
+E cada dia que passa
+Estreita nosso caminho
+Sinto você ao meu lado
+Fico forte e aliviado
+Quando retorno ao teu ninho
 
-Nascendo sem dono,
-Com direito a sonhar,
-Podendo escolher
-Onde vai trabalhar.
+E lá encontro um abraço
+Pronto pra me proteger
+Repleto de amor e bondade
+Que me deixa à vontade
+E que me ajuda a crescer
 
-Zumbi, rei Zumbi
+E mesmo quando a gente
+Por algum motivo se irrita
+Logo, logo se entende
+E a paixão se estende
+Se tornando infinita
 
-Ensinando o valor
-De ter liberdade,
-De poder ser feliz,
-De sentir igualdade.
+Sei até que existem outras
+Mas não posso comparar
+Pra mim tu és a melhor
+E tens o dom maior
+Que é o dom de amar
 
-Zumbi, rei Zumbi
+Eita, que amor é esse
+Que não tem explicação?
+Mas toma todo o meu ser
+E me enche de prazer
+Me transborda de emoção
 
-Adeus pras correntes,
-Adeus pra o mal trato,
-Já não tem coronel 
-Liberdade de fato.
-
-Zumbi, rei Zumbi
-
-Transformando a Senzala
-Em casas, em lares.
-Eternizando o seu nome,
-Eternizando Palmares.
-
-Zumbi, rei Zumbi 
-
-Até hoje se ouve
-Sua voz, os seus gritos,
-Já não são tão constantes,
-Já não são tão aflitos.
-
-Zumbi, rei Zumbi
-
-Zumbindo, cantando
-Em novos terreiros,
-Surgem novos Zumbis,
-Nascem novos guerreiros.`
+Queria que todo mundo
+Tivesse a felicidade
+De ter uma mãe como a minha
+Pra lhe chamar de Mainha
+Pra toda a eternidade`
   },
 
   {
@@ -359,6 +361,64 @@ Que transforma toda dúvida
 Em uma única certeza
 Somos a mais bela cria
 De toda mãe natureza`
+  },
+
+  {
+    title: "Zumbi, rei Zumbi",
+    date: "07/10/2022",
+    text: `Zumbindo, cantando,
+Falando outra língua.
+Resgate de um povo
+Que morre a míngua.
+
+Zumbi, rei Zumbi
+
+Adeus pra senzala,
+Chicote no lombo,
+Senhor senhorzinho,
+Bem vindo ao Quilombo.
+
+Zumbi, rei Zumbi
+
+Nascendo sem dono,
+Com direito a sonhar,
+Podendo escolher
+Onde vai trabalhar.
+
+Zumbi, rei Zumbi
+
+Ensinando o valor
+De ter liberdade,
+De poder ser feliz,
+De sentir igualdade.
+
+Zumbi, rei Zumbi
+
+Adeus pras correntes,
+Adeus pra o mal trato,
+Já não tem coronel 
+Liberdade de fato.
+
+Zumbi, rei Zumbi
+
+Transformando a Senzala
+Em casas, em lares.
+Eternizando o seu nome,
+Eternizando Palmares.
+
+Zumbi, rei Zumbi 
+
+Até hoje se ouve
+Sua voz, os seus gritos,
+Já não são tão constantes,
+Já não são tão aflitos.
+
+Zumbi, rei Zumbi
+
+Zumbindo, cantando
+Em novos terreiros,
+Surgem novos Zumbis,
+Nascem novos guerreiros.`
   },
 
   {
@@ -689,64 +749,6 @@ Agora padece só
 E o povo acaba feliz
 QUEM RI POR ÚLTIMO, RI MELHOR`
   }, 
-
-  {
-    title: "Amor Infinito",
-    date: "09/01/2020",
-    text: `Com tantos outros no mundo
-Como fostes me encontrar?
-Não foi caso do destino
-Que me fez um ser menino 
-Em teu ventre germinar
-
-Não foi apenas o acaso
-Foi algo determinado
-Pois tinha que ser assim
-E minha vida enfim
-Seria estar ao teu lado
-
-Uma vida para dois
-Uma sã cumplicidade
-Tão grande e infinita
-Tão séria e tão bonita
-E completa de verdade
-
-E cada dia que passa
-Estreita nosso caminho
-Sinto você ao meu lado
-Fico forte e aliviado
-Quando retorno ao teu ninho
-
-E lá encontro um abraço
-Pronto pra me proteger
-Repleto de amor e bondade
-Que me deixa à vontade
-E que me ajuda a crescer
-
-E mesmo quando a gente
-Por algum motivo se irrita
-Logo, logo se entende
-E a paixão se estende
-Se tornando infinita
-
-Sei até que existem outras
-Mas não posso comparar
-Pra mim tu és a melhor
-E tens o dom maior
-Que é o dom de amar
-
-Eita, que amor é esse
-Que não tem explicação?
-Mas toma todo o meu ser
-E me enche de prazer
-Me transborda de emoção
-
-Queria que todo mundo
-Tivesse a felicidade
-De ter uma mãe como a minha
-Pra lhe chamar de Mainha
-Pra toda a eternidade`
-  },
 
   {
     title: "Fulô do Maracujá",
